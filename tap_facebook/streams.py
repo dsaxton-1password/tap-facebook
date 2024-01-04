@@ -1361,7 +1361,6 @@ class AdAccountsStream(FacebookStream):
         Property("disable_reason", IntegerType),
         Property("end_advertiser", StringType),
         Property("end_advertiser_name", StringType),
-        Property("has_advertiser_opted_in_odax", BooleanType),
         Property("has_migrated_permissions", BooleanType),
         Property("id", StringType),
         Property("is_attribution_spec_system_default", BooleanType),
