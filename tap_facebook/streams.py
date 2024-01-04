@@ -893,7 +893,7 @@ class CampaignStream(FacebookStream):
         Property("special_ad_category", StringType),
         Property("status", StringType),
         Property("topline_id", StringType),
-        Property("spend_cap", IntegerType),
+        Property("spend_cap", StringType),
         Property("budget_remaining", StringType),
         Property("daily_budget", IntegerType),
         Property("start_time", StringType),
