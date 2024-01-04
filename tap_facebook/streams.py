@@ -1270,7 +1270,6 @@ class AdAccountsStream(FacebookStream):
         "disable_reason",
         "end_advertiser",
         "end_advertiser_name",
-        "has_advertiser_opted_in_odax",
         "has_migrated_permissions",
         "id",
         "is_attribution_spec_system_default",
