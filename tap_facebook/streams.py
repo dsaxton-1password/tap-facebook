@@ -1110,7 +1110,7 @@ class CreativeStream(FacebookStream):
         Property("title", StringType),
         Property("url_tags", StringType),
         Property("use_page_actor_override", BooleanType),
-        Property("video_id", IntegerType),
+        Property("video_id", StringType),
         Property("template_app_link_spec_android", ArrayType(StringType)),
         Property("template_app_link_spec_ios", ArrayType(StringType)),
         Property("template_app_link_spec_ipad", ArrayType(StringType)),
